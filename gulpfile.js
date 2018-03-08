@@ -8,7 +8,9 @@ var gulp          = require( "gulp" ),
 	rename        = require( "gulp-rename" ),
 	autoprefixer  = require( "gulp-autoprefixer" ),
 	notify        = require( "gulp-notify" ),
-	rsync         = require( "gulp-rsync" );
+	rsync         = require( "gulp-rsync" ),
+	gcmq          = require( "gulp-group-css-media-queries" ),
+	htmlmin		  = require( "gulp-htmlmin" );
 
 gulp.task( "browser-sync", function() {
 	browsersync( {
