@@ -1,0 +1,5 @@
+( ( dom, ls ) => {
+
+    
+
+} )( document, localStorage );
