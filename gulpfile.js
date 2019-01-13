@@ -65,7 +65,7 @@ let watchFiles = () => {
 	gulp.watch( "**/*.scss", styles );
 	gulp.watch( "app/ts/scripts.ts", ts );
 	gulp.watch( "app/js/scripts.js", js );
-	gulp.watch( "app/index.html", browsersync.reload );
+	gulp.watch( "app/index.html" ).on( 'change', browsersync.reload );
 
 	fs.watchFile( "app/css/style.min.css", {
 		interval: 100

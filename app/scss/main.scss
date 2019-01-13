@@ -2,6 +2,8 @@
 @import "fonts";
 @import "libs";
 
+@import "../../node_modules/normalize.css/normalize.css";
+
 ::placeholder {
 	color: #666;
 }
@@ -25,6 +27,7 @@ body {
 	line-height: 1.65;
 	font-family: $default-font;
 	overflow-x: hidden;
+	background: #000;
 }
 
 input, textarea {
@@ -55,4 +58,4 @@ input, textarea {
 
 
 
-@import "media"; // Always at the end
+// @import "media"; // Always at the end
