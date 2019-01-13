@@ -1,1 +1,1 @@
-<h1>Please stand by</h1>
+<h1 style="text-align: center">Please stand by</h1>
