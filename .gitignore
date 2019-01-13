@@ -2,5 +2,4 @@ node_modules
 *.min.*
 package-lock.json
 .vscode
-app/css/main.min.css
-app/js/*
+app/js/scripts.js
